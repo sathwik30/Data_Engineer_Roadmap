@@ -1,0 +1,93 @@
+/* Basic reset for consistency across browsers */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styling for body */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f8ff;
+  color: #333;
+  padding: 20px;
+}
+
+/* Header styling */
+header {
+  text-align: center;
+  background-color: #4682b4;
+  padding: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+/* Roadmap section styling */
+#roadmap ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#roadmap li {
+  background-color: #e6f2ff;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-left: 5px solid #4682b4;
+}
+
+#roadmap li a {
+  color: #ff4500;
+  text-decoration: none;
+}
+
+#roadmap li a:hover {
+  text-decoration: underline;
+}
+
+/* Company links */
+#company-roadmaps ul {
+  list-style-type: none;
+}
+
+#company-roadmaps li {
+  margin: 10px 0;
+}
+
+#company-roadmaps a {
+  text-decoration: none;
+  color: #4682b4;
+}
+
+#company-roadmaps a:hover {
+  text-decoration: underline;
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #4682b4;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  #roadmap li {
+    font-size: 0.9rem;
+  }
+}
